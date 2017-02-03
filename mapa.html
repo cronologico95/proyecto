@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAl1PNKIaNxoieGFK6eCNZqMbtsT_L6J8o&callback=initMap">
+    </script>
+    <link rel="stylesheet" href="css/mapa.css">
+    <script src="js/mapa.js"></script>
+    <link rel="stylesheet" href="fonts.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="jquery-3.1.1.js"></script>
+    <meta name="viewport" .content="width=devide-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="css/estilo.css"> </head>
+
+<body onload="initMap()">
+    <div id="mySidenav" class="sidenav">
+        <ul id="lista_completa">
+            <li id="encabezado" onclick="barras()"><span></span>MENU</li>
+            <li><a href="pri_ibague1.html"><span class="icon-home2"></span>Inicio</a></li>
+            <li><a href="categoria_salud.html"><span class="icon-book"></span>Directorio Virtual</a></li>
+            <li><a href="mapa.html"><span class="icon-earth"></span>Estoy Cerca De...</a></li>
+            <li><a href="#"><span class="icon-price-tags"></span>Nuestros Servicios</a></li>
+            <li><a href="premium.html"><span class="icon-user-tie"></span>Usuarios Premium</a></li>
+            <li><a href="#"><span class="icon-facebook2"></span>Siguenos</a></li>
+        </ul>
+    </div>
+    <div class="menu_bar" onclick="barras()"> <a href="#" class="bt-menu"><span class="icon-list2"></span>MENU</a> </div>
+    <div id="map"> </div>
+    <div id="imgLOAD" style="text-align:center;"> <b>Cargando</b>
+        <br> <img align=center src="iconos/cargando.gif" width="40px" height="40px" /> </div>
+    <footer>
+        <div align="center" id="abajo"> Encuentra Lo Que Buscas </div>
+    </footer>
+</body>
+
+</html>
